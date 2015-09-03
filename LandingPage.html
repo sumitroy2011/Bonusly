@@ -1,0 +1,129 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title>Welcome to M&S Recognition App</title>
+<style type="text/css">
+body {
+background-color: #f4f4f4;
+color: #5a5654;
+font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+font-size: 16px;
+line-height: 1.5em;
+}
+a { text-decoration: none; }
+h1 { font-size: 1em; }
+h1, p {
+margin-bottom: 5px;
+}
+strong {
+font-weight: bold;
+}
+.uppercase { text-transform: uppercase; }
+
+/* ---------- LOGIN ---------- */
+#login {
+margin: 50px auto;
+width: 1000px;
+}
+form fieldset input[type="text"] {
+background-color: #e5e5e5;
+border: none;
+border-radius: 3px;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+color: #5a5656;
+font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+font-size: 14px;
+height: 30px;
+outline: none;
+padding: 0px 10px;
+width: 65px;
+-webkit-appearance:none;
+}
+form fieldset input[type="textarea"] {
+background-color: #e5e5e5;
+border: none;
+border-radius: 1px;
+-moz-border-radius: 1px;
+-webkit-border-radius: 1px;
+color: #5a5656;
+font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+font-size: 15px;
+word-wrap:normal;
+text-wrap:suppress;
+columns:20;
+rows:2;
+height: 200px;
+outline: none;
+position: relative;
+padding: 10px 10px;
+width: 650px;
+-webkit-appearance:none;
+}
+form fieldset input[type="submit"] {
+background-color: #32CD32;
+border: none;
+border-radius: 3px;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+color: #f4f4f4;
+cursor: pointer;
+font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+height: 50px;
+text-transform: uppercase;
+width: 205px;
+-webkit-appearance:none;
+}
+form fieldset a {
+color: #000000;
+font-size: 10px;
+}
+form fieldset a:hover { text-decoration: underline; }
+.btn-round {
+background-color: ##008000;
+border-radius: 100%;
+-moz-border-radius: 100%;
+-webkit-border-radius: 500%;
+color: #008000;
+display: block;
+font-size: 12px;
+height: 500px;
+line-height: 500px;
+margin: 30px 225px;
+text-align: center;
+text-transform: uppercase;
+width: 500px;
+}
+</style>
+</head>
+<body>
+<img src="/Images/images.jpg" width="150" height="150" alt=""/> <img src="/Images/MarksAndSpencer500x362px.jpg" width="150" height="150" alt=""/>
+<div id="login">
+<strong>Welcome to M&S Recognition App, Sumit Roy</strong>
+&emsp;&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; <a href="/RecognitionLogIn.html"> <b>Logout </b</a>  
+<hr> <b> You have got </b> <a href="#">60</a> <b> points in your account </b> </hr>
+<h1><p><strong> Please choose the colleague you want to recognise today <strong></h1>
+<form action="javascript:void(0);" method="ge>t">
+  <fieldset>
+  <p>
+  <select>
+  <option value="User1">Indra Prabha</option>
+  <option value="User2">Rajan Sharma</option>
+  <option value="User3">Samit Panjir</option>
+  <option value="User4">Rohit Mathur</option>
+  <option value="User4">Anuj Malik</option>
+  <option value="User4">Eswara Kumar</option>
+</select> for <input type="text" required value="Points" onBlur="if(this.value=='')this.value='Points'" onFocus="if(this.value=='Points')this.value='' ">
+</p>
+<p>
+<input type="textarea">
+</p>
+  <p><input type="Submit" value="Recognise" formaction="/thankyou.html"> 
+  </p>
+  </fieldset>
+  </form>
+<p>&nbsp;</p>
+<p>
+</div> <!-- end login -->
+</body>
+</html>

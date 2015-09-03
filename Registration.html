@@ -1,0 +1,127 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title>M&S Recognition - Create your account</title>
+<style type="text/css">
+body {
+background-color: #f4f4f4;
+color: #5a5656;
+font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+font-size: 16px;
+line-height: 1.5em;
+}
+a { text-decoration: none; }
+h1 { font-size: 1em; }
+h1, p {
+margin-bottom: 10px;
+}
+strong {
+font-weight: bold;
+}
+.uppercase { text-transform: uppercase; }
+
+/* ---------- LOGIN ---------- */
+#login {
+margin: 50px auto;
+width: 300px;
+}
+form fieldset input[type="text"], input[type="password"] {
+background-color: #e5e5e5;
+border: none;
+border-radius: 3px;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+color: #5a5656;
+font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+font-size: 14px;
+height: 50px;
+outline: none;
+padding: 0px 10px;
+width: 280px;
+-webkit-appearance:none;
+}
+form fieldset input[type="text"], input[type="Confirm password"] {
+background-color: #e5e5e5;
+border: none;
+border-radius: 3px;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+color: #5a5656;
+font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+font-size: 14px;
+height: 50px;
+outline: none;
+padding: 0px 10px;
+width: 280px;
+-webkit-appearance:none;
+}
+form fieldset input[type="submit"] {
+background-color: #32CD32;
+border: none;
+border-radius: 3px;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+color: #f4f4f4;
+cursor: pointer;
+font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+height: 50px;
+text-transform: uppercase;
+width: 300px;
+-webkit-appearance:none;
+}
+form fieldset a {
+color: #000000;
+font-size: 10px;
+}
+form fieldset a:hover { text-decoration: underline; }
+.btn-round {
+background-color: ##008000;
+border-radius: 50%;
+-moz-border-radius: 50%;
+-webkit-border-radius: 50%;
+color: #008000;
+display: block;
+font-size: 12px;
+height: 50px;
+line-height: 50px;
+margin: 30px 125px;
+text-align: center;
+text-transform: uppercase;
+width: 50px;
+}
+</style>
+</head>
+<body>
+<img src="/Images/images.jpg" width="150" height="150" alt=""/> <img src="/Images/MarksAndSpencer500x362px.jpg" width="150" height="150" alt=""/>
+<div id="login">
+<h1><strong>M&S Recognition Tool</strong> 
+<p><strong>Please register yourself<strong></h1>
+<form id ='test' action="javascript:void(0);" method="get">
+<fieldset>
+<p>
+<label for="Your Sapient E-mail Address">Your Sapient E-mail Address *</label>
+<input id="email" type="text" required value="Your Sapient ID" onBlur="if(this.value=='')this.value='Your Sapient ID'" onFocus="if(this.value=='Your Sapient ID')this.value='' ">
+<span id="wrongemail" class="error">*This is a required field</span></p>
+<label for="First Name">First Name *</label>
+<input id="fname" type="text" required value="FIRST NAME" onBlur="if(this.value=='')this.value='First Name'" onFocus="if(this.value=='FIRST NAME')this.value='' ">
+<span id="wrongfname" class="error">*This is a required field</span> </p>
+<label for="First Name">Last Name *</label>
+<input id="lname" type="text" required value="LAST NAME" onBlur="if(this.value=='')this.value='Last Name'" onFocus="if(this.value=='LAST NAME')this.value='' ">
+<span id="wronglname" class="error">*This is a required field</span></p>
+<label for="Enter Password">Enter Password *</label>
+<p><input id="pwd" type="password" required value="Password" onBlur="if(this.value=='')this.value='Password'" onFocus="if(this.value=='Password')this.value='' "></p>
+<label for="Re-Enter your Password">Confirm Password *</label>
+<p><input id="cpwd" type="password" required value="Password" onBlur="if(this.value=='')this.value='Confirm password'" onFocus="if(this.value=='Confirm password')this.value='' "></p>
+<p><input type="submit" value="Create my Account" formaction="/LandingPage.html"> 
+<form action="RecognitionLogIn.html">
+</p>
+<p>Have an account? Click <a href="/RecognitionLogIn.html">HERE</a> to SIGN-IN
+</p>
+</fieldset>
+</form>
+<p>&nbsp;</p>
+<p>
+</div> <!-- end login -->
+<script src="http://localhost:8080/Recognition/ValidateForm.js"></script>
+</body>
+</html>
